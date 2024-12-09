@@ -2,10 +2,8 @@ CREATE DATABASE banco_teste;
 
 USE banco_teste;
 
--- Criação do usuário com senha
 CREATE USER 'bernardo'@'localhost' IDENTIFIED BY 'senha123';
 
--- Concedendo permissões ao usuário
 GRANT ALL PRIVILEGES ON banco_teste.* TO 'bernardo'@'localhost';
 
 CREATE TABLE usuario (
